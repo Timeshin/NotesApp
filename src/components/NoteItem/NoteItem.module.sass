@@ -1,0 +1,41 @@
+@import "../../_variables/_variables"
+
+.note__list__item
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: #fff
+    width: 800px
+    border: 1px solid $border-color
+    padding: 5px
+    margin-top: 20px
+    &__content
+        font-size: 18px
+        &__title
+            word-wrap: break-word
+            width: 700px
+            &__active
+                background: #ffd51a
+                color: #000
+        &__tags__list
+            display: flex
+            &__item
+                display: flex
+                align-items: center
+                margin: 10px 10px 0 0
+                color: $unactive-color
+                font-size: 16px
+                svg
+                    cursor: pointer
+                    margin-left: 5px
+    
+    &__icons
+        display: flex
+        padding: 0 10px
+        &__edit
+            cursor: pointer
+            margin-right: 10px
+            color: lightblue 
+        &__trash
+            cursor: pointer
+            color: $error-color
