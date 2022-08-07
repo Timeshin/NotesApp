@@ -6,6 +6,6 @@
 
 ### `npm start`
 
-API: https://github.com/XGriFeX/NotesApi
+API: https://github.com/Timeshin/NotesApi
 
 APP: https://test-notes-app.netlify.app
